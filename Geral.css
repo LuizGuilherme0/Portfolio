@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap'); 
+
 /*{
   margin: 0;
   padding: 0;
@@ -555,8 +557,23 @@ color: black;
   margin-left: 10px;
   margin-top: 10px;
   text-align: justify;
+  color:black;
+  font-family: 'Roboto', sem serifa;
 }
 
+
+.detalhes{
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-family: 'Roboto', sem serifa;
+  font-size: 20px;
+  color: var(--royal-blue-light);
+}
+
+
+        /*Responsividade botao modal*/
 @media screen and (min-width: 875px){
   .abrirModal{
     top: 70%;
